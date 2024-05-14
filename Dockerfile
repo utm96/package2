@@ -14,4 +14,4 @@ RUN R -e "install.packages(c('shiny'))"
 EXPOSE 3838
 
 # Run app.R when the container launches
-CMD ["R", "-e", "shiny::runApp('/app')"]
+CMD ["R", "-e", "shiny::runApp('/app', port = 3838, host = '0.0.0.0')"]
