@@ -1,0 +1,17 @@
+Package: MyPackage2
+Type: Package
+Title: What the Package Does (One Line, Title Case)
+Version: 0.1.0
+Author: minh
+Maintainer: The package maintainer <your-email@some-domain.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+RoxygenNote: 7.3.1
+Encoding: UTF-8
+Imports: 
+    shiny 
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
